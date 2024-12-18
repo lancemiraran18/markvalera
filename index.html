@@ -201,9 +201,10 @@
 
         .activities a {
             padding: 12px 25px;
-            background: #6e4b3a; /* Brown button */
-            color: white;
+            background: ; /* Brown button */
+            color: #6e4b3a;
             text-transform: uppercase;
+            border: 2px solid brown;
             font-size: 1rem;
             border-radius: 5px;
             display: inline-block;
@@ -214,6 +215,8 @@
         .activities a:hover {
             background-color: #f4d03f; /* Light golden */
             transform: translateY(-3px);
+            box-shadow: 0 0 20px 10px rgba(201, 141, 31, 0.7);
+            transition: box-shadow 0.3s ease, transform 0.3s ease;
         }
 
         /* Contact Section */
